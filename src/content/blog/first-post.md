@@ -31,7 +31,7 @@ Okay, let's see what I can find out!
 
 In Chrome, I can right click and "Translate" - if I do that, I get this as the title: UNIARTE: Union of Artisans of the Earth.
 
-Okay, so if that's right then this is a flyer advertising UNIARTE, probably - there's nothing special in that title. It's a flyer, though, let's get the second page. This was actually pretty hard to put in the blog - there's no way to just get a link to the full readable image of the back of the image, but it uses [IIIF](https://iiif.io/) and I know how IIIF works (and am a programmer), so I can reverse engineer a bit. Here's the back:
+Okay, so if that's right then this is a flyer advertising UNIARTE, probably - there's nothing special in that title. It's a flyer, though, let's get the second page. This was actually pretty hard to put in the blog - there's no way to just get a link to the full readable image of the back of the image, but it uses [IIIF](https://iiif.io/), I know how IIIF works, and also I helped build this site, so I can reverse engineer a bit. Here's the back:
 
 ![An image of page 2 of the flyer, which has a lot of text in Spanish, some images of art on the right, and a title at the top saying UNIARTE](https://iiif-cloud.princeton.edu/iiif/2/4b%2F60%2Fa4%2F4b60a4ba1d3c4d839588d908f70b90c9%2Fintermediate_file/full/,600/0/default.jpg)
 
