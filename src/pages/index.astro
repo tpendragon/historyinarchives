@@ -102,7 +102,7 @@ const posts = (await getBlogCollection(Astro.url)).sort(
           {
             posts.map((post) => (
               <li>
-                <a href={`/blog/${post.id}/`} class="w-full">
+                <a href={`./blog/${post.id}/`} class="w-full">
                   <div class="flex w-full max-h-[360px] overflow-hidden">
                     {post.data.ogImage && (
                       <Image

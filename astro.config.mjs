@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tpendragon.github.io',
-  base: '/historyinarchives',
+  base: '/historyinarchives/',
   integrations: [mdx(), sitemap()],
 
   vite: {
