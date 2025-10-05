@@ -45,8 +45,6 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
 }
@@ -59,6 +57,7 @@ h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
+  @apply py-3;
 }
 h1 {
 	font-size: 3.052em;
@@ -85,11 +84,8 @@ a {
 a:hover {
 	color: var(--accent);
 }
-p {
-	margin-bottom: 1em;
-}
 .prose p {
-	margin-bottom: 2em;
+  @apply mb-4 m-0;
 }
 textarea {
 	width: 100%;
@@ -135,6 +131,13 @@ hr {
 	main {
 		padding: 1em;
 	}
+}
+
+li, ul, menu {
+  list-style: square inside;
+}
+ul {
+  @apply mb-4;
 }
 
 .sr-only {

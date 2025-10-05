@@ -17,8 +17,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <BaseHead title={title} description={description} />
     <style>
       main {
-        width: calc(100% - 2em);
-        max-width: 100%;
         margin: 0;
       }
       .hero-image {
@@ -31,7 +29,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         box-shadow: var(--box-shadow);
       }
       .prose {
-        width: 720px;
         max-width: calc(100% - 2em);
         margin: auto;
         padding: 1em;
@@ -53,13 +50,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
       .last-updated-on {
         font-style: italic;
       }
+      ol, ul, menu {
+        list-style: square;
+      }
     </style>
   </head>
 
   <body>
     <Header />
-    <main>
-      <article>
+    <main class="w-full flex justify-center">
+      <article class="max-w-screen-xl w-full">
         <div class="hero-image overflow-hidden w-[1020px] h-[510px]">
           {
             heroImage && (
